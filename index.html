@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>split wise</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+
+
+    <div class="whole">
+
+        <div class="leftside">
+
+            <div class="in_ba_ex">
+
+                <div class="income">
+                    <h4>your income</h4>
+                    <input id="typeincome" placeholder="Type your income here" type="number">
+                    <h3>₹<span id="displayincome">000</span></h3>
+                </div>
+
+                <div class="balance">
+                    <h4>remaining balance</h4>
+                    <h3>₹<span class="balanceamount">000</span></h3>
+                </div>
+                <!-- <div class="expenditure"></div> -->
+            </div>
+
+            <div class="graph"> 
+
+                <h3>spended balance</h3>
+                <div id="spendedbal">%</div>
+                
+                <h3>remaining balance</h3>
+                <div id="bargraph">%</div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="rightside">
+
+            <div class="trn">
+                <h3>Tranaction History</h3>
+            </div>
+
+
+            <div class="expend">
+
+                <!-- <h2>expenditure</h2> -->
+                <div class="expenses"> <input placeholder="title" id="expensetitle" type="text"><input
+                        placeholder="amount" id="expenseamount" type="number"></div>
+                <DIV class="btns">
+                    <button id="spended">spended</button>
+                    <button id="added"> added</button>
+                </DIV>
+                <ul class="transacations">
+
+                </ul>
+
+                <H3 class="displayexpenditure"></H3>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <!-- <div>
+        <h2>your income</h2>
+        <input  class="typeincome1" placeholder="Type your income here" type="text">
+        <h3 class="displayincome"></h3>
+    </div>
+-->
+
+</body>
+<script src="./index.js"></script>
+
+</html>
